@@ -10,7 +10,6 @@
       "dest": "/public/index.php"
     }
   ],
-  "excludeFiles": "**/node_modules/** **/storage/** **/vendor/**",
   "env": {
     "APP_ENV": "production",
     "APP_DEBUG": "true",
