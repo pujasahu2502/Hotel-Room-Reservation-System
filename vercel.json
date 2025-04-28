@@ -1,16 +1,6 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "public/index.php",
-        "use": "@vercel/php"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/public/index.php/$1"
-      }
-    ]
-  }
-  
+    "build": {
+      "command": "composer install && npm install && npm run prod"
+    },
+    "output": "public"
+}
