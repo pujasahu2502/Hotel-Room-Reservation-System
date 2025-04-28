@@ -6,6 +6,13 @@
 /storage/*.key
 /storage/pail
 /vendor
+/vendor
+/.env
+/node_modules
+/public/storage
+/storage/*.key
+.phpunit.result.cache
+/composer.lock
 .env
 .env.backup
 .env.production
